@@ -1,8 +1,3 @@
-index:
-   path: /inicio
-   controller: App\Controller\HomeController::index
-
-animales:
-   path: /animales/{nombre}
-   controller: App\Controller\HomeController::animales
-   defaults: { nombre: 'Cristian Rivera'}
+# index:
+#    path: /inicio
+#    controller: App\Controller\HomeController::index
