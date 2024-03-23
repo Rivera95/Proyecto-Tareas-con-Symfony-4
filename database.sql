@@ -18,8 +18,8 @@ user_id     int(255) not null,
 title       varchar(255),
 content     text,
 priority    varchar(20),    
-hours       int(100)
+hours       int(100),
 create_at   datetime,
-CONSTRAINT pk_tasks PRIMARY KEY(id)
+CONSTRAINT pk_tasks PRIMARY KEY(id),
 CONSTRAINT fk_task_user FOREIGN KEY(user_id) REFERENCES users(id)
 )ENGINE=InnoDb;
